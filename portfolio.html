@@ -1,131 +1,445 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="blue.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Priyadharshini S B - Computer Science student, MERN Stack developer and aspiring Software Developer.">
+  <title>Priyadharshini S B | Portfolio</title>
+  <link rel="stylesheet" href="blue.css">
 </head>
 <body>
-    <nav>
-        <span class="logo">Priyadharshini S B</span>
+
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <a href="#home" class="logo">Priya<span>.</span></a>
+
+      <div class="nav-links">
+        <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
         <a href="#contact">Contact</a>
+      </div>
     </nav>
-    <div class="home">
-        <h1>Hi, I'm Priyadharshini S B</h1>
-        <p>Frontend Developer | UI/UX Designer | CSE Student<br><br>
-        <p1>SRM Madurai College for Engineering and Technology</p1><br><br>
-        <a href="#projects">View Projects</a>
-    </div>
-    <div class="section" id="about">
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="home section" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">HELLO, I'M</p>
+
+        <h1>Priyadharshini <span>S B</span></h1>
+
+        <h2>Aspiring Software Developer</h2>
+
+        <p class="hero-description">
+          Computer Science and Engineering student passionate about
+          building useful web applications with modern technologies.
+          I enjoy learning, solving problems and turning ideas into reality.
+        </p>
+
+        <p class="college-name">
+          B.E. Computer Science and Engineering
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">Explore My Projects</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+
+        <div class="hero-socials">
+          <a href="https://github.com/PriyadharshiniSB"
+             target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+
+          <a href="https://www.linkedin.com/in/priyadharshini-sb"
+             target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section section-alt" id="about">
+      <div class="section-heading">
+        <p class="section-label">GET TO KNOW ME</p>
         <h2>About Me</h2>
-        <div class="about-grid">
-            <div class="about-text">
-                <p>I'm Priyadharshini S B, currently in my 3rd year of Computer Science Engineering at SRM Madurai College for Engineering and Technology.</p>
-                <p>I love turning ideas into clean, responsive interfaces — whether that's a data-driven GitHub analytics tool or a healthcare app built under hackathon pressure. Design and code are equally important to me.</p>
-                <p>I've worked with Html, CSS,and javscript to craft experiences that feel intentional, accessible, and genuinely useful to real users.</p>
-            </div>
-            <div class="about-info">
-                <p><b>Name : </b>Priyadharshini S B</p>
-                <p><b>College : </b>SRM Madurai College for Engineering and Technology </p>
-                <p><b>Degree : </b>B E.Computer Science and Engineering</p>
-                <p><b>CGPA : </b>8.62</p>
-                <p><b>Address : </b>Madurai,TamilNadu</p>
-            </div>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I am a Computer Science and Engineering student at SRM
+            Madurai College for Engineering and Technology, interested
+            in software development and web technologies.
+          </p>
+
+          <p>
+            I have hands-on experience through internships and projects
+            involving React.js, Node.js, Express.js and MongoDB.
+            I enjoy developing responsive applications and exploring
+            new technologies to improve my skills.
+          </p>
+
+          <p>
+            My goal is to begin my career as a Software Developer or
+            Web Developer, contribute to meaningful projects and
+            continue growing as a developer.
+          </p>
         </div>
-    </div>
-   <div class="section two" id="skills">
-        <h2>Skills</h2>
-        <div class="skills-box">
-            <div class="skill">HTML</div>
-            <div class="skill">CSS</div>
-            <div class="skill">JavaScript</div>
-            <div class="skill">Python</div>
-            <div class="skill">C</div>
+
+        <div class="about-info">
+          <p><strong>Name</strong><span>Priyadharshini S B</span></p>
+          <p><strong>Degree</strong><span>B.E. Computer Science</span></p>
+          <p><strong>College</strong><span>SRM Madurai College for Engineering and Technology</span></p>
+          <p><strong>CGPA</strong><span>8.54 / 10</span></p>
+          <p><strong>Location</strong><span>Madurai, Tamil Nadu</span></p>
+          <p><strong>Career Interest</strong><span>Software & Web Development</span></p>
         </div>
-    </div>
-<div class="section" id="experience">
-  <h2>Experience</h2>
+      </div>
+    </section>
 
-  <div class="exp-items">         
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+      <div class="section-heading">
+        <p class="section-label">WHAT I WORK WITH</p>
+        <h2>Technical Skills</h2>
+      </div>
 
-    <div class="exp-left">    
-      <p class="exp-date">July 2025 - Aug 2025</p>
-      <p class="exp-company">Codebind Technologies</p>
-    </div>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Programming Languages</h3>
+          <div class="skills-box">
+            <span class="skill">Java</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">Python</span>
+            <span class="skill">C</span>
+          </div>
+        </div>
 
-    <div class="exp-right"> 
-      <h3 class="exp-role">Web Development Intern</h3>
-      <ul class="exp-points">
-        <li>Built a full boutique website using HTML, CSS, and JavaScript.</li>
-        <li>Applied UI/UX best practices and responsive design.</li>
-        <li>Worked with the development team on frontend features.</li>
+        <div class="skill-card">
+          <h3>Frontend Development</h3>
+          <div class="skills-box">
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">React.js</span>
+            <span class="skill">Tailwind CSS</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Backend Development</h3>
+          <div class="skills-box">
+            <span class="skill">Node.js</span>
+            <span class="skill">Express.js</span>
+            <span class="skill">REST APIs</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Databases</h3>
+          <div class="skills-box">
+            <span class="skill">MongoDB</span>
+            <span class="skill">MySQL</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Tools</h3>
+          <div class="skills-box">
+            <span class="skill">Git</span>
+            <span class="skill">GitHub</span>
+            <span class="skill">VS Code</span>
+            <span class="skill">Figma</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Core Concepts</h3>
+          <div class="skills-box">
+            <span class="skill">Object-Oriented Programming</span>
+            <span class="skill">DBMS</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section section-alt" id="experience">
+      <div class="section-heading">
+        <p class="section-label">MY PROFESSIONAL JOURNEY</p>
+        <h2>Internship Experience</h2>
+      </div>
+
+      <div class="experience-list">
+        <article class="experience-card">
+          <div class="exp-meta">
+            <span class="exp-date">June 2026 – July 2026</span>
+            <span class="exp-company">Stacia Corp</span>
+          </div>
+
+          <div class="exp-content">
+            <h3>MERN Stack Intern</h3>
+            <p class="exp-subtitle">Software R&D Division</p>
+
+            <ul>
+              <li>
+                Developed features for TaskDrive, a file and task
+                management platform using React.js, Node.js,
+                Express.js and MongoDB.
+              </li>
+              <li>
+                Implemented JWT authentication and features for
+                trash-and-restore and activity tracking using REST APIs.
+              </li>
+              <li>
+                Worked on file organization, folder management and
+                secure file access.
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="experience-card">
+          <div class="exp-meta">
+            <span class="exp-date">July 2025 – August 2025</span>
+            <span class="exp-company">CodeBind Technologies</span>
+          </div>
+
+          <div class="exp-content">
+            <h3>Web Development Intern</h3>
+
+            <ul>
+              <li>
+                Developed a responsive boutique website using HTML,
+                CSS and JavaScript.
+              </li>
+              <li>
+                Created a user-friendly layout designed to adapt to
+                different screen sizes.
+              </li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <p class="section-label">SOME THINGS I'VE BUILT</p>
+        <h2>My Projects</h2>
+        <p class="section-description">
+          A selection of projects that showcase my development skills.
+        </p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card featured">
+          <p class="project-date">July 2026</p>
+          <h3>TaskDrive</h3>
+          <p class="project-subtitle">File and Task Management Platform</p>
+
+          <p class="project-desc">
+            A MERN stack application for uploading files, organizing
+            folders, sharing content and restoring deleted files.
+            Includes authentication and activity tracking.
+          </p>
+
+          <div class="project-tech">
+            <span>MongoDB</span>
+            <span>Express.js</span>
+            <span>React.js</span>
+            <span>Node.js</span>
+          </div>
+
+          <!-- Add your actual repository URL when available -->
+          <span class="project-link">MERN Stack Project</span>
+        </article>
+
+        <article class="project-card">
+          <p class="project-date">May 2026</p>
+          <h3>GitHub Profile Analyzer</h3>
+
+          <p class="project-desc">
+            A React application that uses the GitHub API to display
+            developer profiles and repository information, with
+            repository statistics visualized through charts.
+          </p>
+
+          <div class="project-tech">
+            <span>React.js</span>
+            <span>GitHub API</span>
+            <span>Recharts</span>
+          </div>
+
+          <span class="project-link">React Project</span>
+        </article>
+
+        <article class="project-card">
+          <p class="project-date">May 2025</p>
+          <h3>GradeMate</h3>
+          <p class="project-subtitle">Academic Grade Tracker</p>
+
+          <p class="project-desc">
+            A student-focused application for tracking academic
+            grades and calculating GPA and CGPA through a responsive
+            interface.
+          </p>
+
+          <div class="project-tech">
+            <span>React.js</span>
+            <span>JavaScript</span>
+            <span>Tailwind CSS</span>
+          </div>
+
+          <span class="project-link">Web Application</span>
+        </article>
+
+        <article class="project-card">
+          <p class="project-date">April 2025</p>
+          <h3>MediCare</h3>
+          <p class="project-subtitle">Healthcare Mobile Application</p>
+
+          <p class="project-desc">
+            A healthcare mobile application developed for the
+            TNWise Hackathon to help users manage medications with
+            medication tracking and reminders.
+          </p>
+
+          <div class="project-tech">
+            <span>Kotlin</span>
+            <span>XML</span>
+            <span>Groovy</span>
+          </div>
+
+          <span class="project-link">Mobile Application</span>
+        </article>
+
+        <article class="project-card">
+          <p class="project-date">2025</p>
+          <h3>Boutique Website</h3>
+
+          <p class="project-desc">
+            A responsive boutique website developed during my
+            web development internship, with a layout that adapts
+            to different screen sizes.
+          </p>
+
+          <div class="project-tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+
+          <span class="project-link">Web Development</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section section-alt" id="education">
+      <div class="section-heading">
+        <p class="section-label">MY ACADEMIC BACKGROUND</p>
+        <h2>Education</h2>
+      </div>
+
+      <div class="education-list">
+        <article class="education-card">
+          <div class="education-meta">
+            <span>2023 – 2027 (Expected)</span>
+            <span>CGPA: 8.54 / 10</span>
+          </div>
+
+          <h3>SRM Madurai College for Engineering and Technology</h3>
+          <p>B.E. in Computer Science and Engineering</p>
+        </article>
+
+        <article class="education-card">
+          <div class="education-meta">
+            <span>2023</span>
+            <span>90.16%</span>
+          </div>
+
+          <h3>Sourashtra Girls Higher Secondary School, Madurai</h3>
+          <p>Higher Secondary Certificate (HSC)</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section" id="certifications">
+      <div class="section-heading">
+        <p class="section-label">CONTINUOUS LEARNING</p>
+        <h2>Certifications & Workshops</h2>
+      </div>
+
+      <ul class="cert-list">
+        <li>
+          <span>Spring 5 Basics</span>
+          <span>Infosys Springboard · 2026</span>
+        </li>
+        <li>
+          <span>Programming in HTML5 with JavaScript and CSS3</span>
+          <span>Infosys Springboard · 2025</span>
+        </li>
+        <li>
+          <span>Deloitte Technology Job Simulation</span>
+          <span>Deloitte · 2026</span>
+        </li>
+        <li>
+          <span>Robotics Workshop</span>
+          <span>Mobius 2K24 · 2024</span>
+        </li>
       </ul>
-    </div>
+    </section>
 
-  </div>
-
-</div>
-<div class="section" id="projects">
-  <h2>Projects</h2>
-
-  <div class="project-grid">   
-    <div class="project-card">
-      <p class="project-date">May 2026</p>
-      <h3 class="project-name"><a href="https://github.com/PriyadharshiniSB/GitHub-analyzer">GitHub Profile Analyzer</a></h3>
-      <p class="project-desc">A web app that shows GitHub user stats and repositories using the GitHub API.</p>
-      <p class="project-tech"><b>Tech:</b> React.js, GitHub API, Recharts</p>
-    </div>
-
-    <div class="project-card">
-      <p class="project-date">May 2025</p>
-      <h3 class="project-name"><a href="https://github.com/PriyadharshiniSB/GradeMate">GradeMate</a></h3>
-      <p class="project-desc">App to calculate GPA/CGPA and track subject marks with clean responsive design.</p>
-      <p class="project-tech"><b>Tech:</b> React.js, JavaScript, Tailwind CSS</p>
-    </div>
-
-    <div class="project-card">
-      <p class="project-date">August 2025</p>
-      <h3 class="project-name"><a href="https://github.com/PriyadharshiniSB/Devis-boutique">Boutique Website</a></h3>
-      <p class="project-desc">Responsive e-commerce boutique website built during internship.</p>
-      <p class="project-tech"><b>Tech:</b> HTML, CSS, JavaScript</p>
-    </div>
-
-    <div class="project-card">
-      <p class="project-date">April 2026</p>
-      <h3 class="project-name"><a href="https://github.com/PriyadharshiniSB/MediCare">MediCare - Healthcare App</a></h3>
-      <p class="project-desc">Medication tracker with reminders and AI chatbot. Built at TNWise Hackathon.</p>
-      <p class="project-tech"><b>Tech:</b> Kotlin, XML, Groovy</p>
-    </div>
-
-  </div>  
-</div>  
-<div class="section con" id="contact">
+    <!-- Contact Section -->
+    <section class="section section-alt" id="contact">
+      <div class="section-heading">
+        <p class="section-label">LET'S CONNECT</p>
         <h2>Contact Me</h2>
-        <p class="contact-intro">Feel free to reach out — I'm open to internships and collaborations!</p>
-        <div class="contact-links">
-            <a href="mailto:sbpriyadharshini005@gmail.com" class="contact-btn">✉ Email Me</a>
-            <a href="https://www.linkedin.com/in/priyadharshini-s-b-447b17379" target="_blank" class="contact-btn">🔗 LinkedIn</a>
-            <a href="https://github.com/PriyadharshiniSB" target="_blank" class="contact-btn">⌥ GitHub</a>
-        </div>
-    </div>
-    <div class="resume" id="myresume">
-        <h2>My Resume</h2><br>
-        <center>
-        <div class="res">
-            <h3 class="resumename">Priyadharshini S B - Resume</h3><br>
-            <p>View my complete resume online or download a copy for your records</p><br>
-            <a href="Priyadharshini_S_B_Resume .pdf" download class="btn-ghost">⬇ Download Resume</a><br><br>
-        </div>
-        <br>
-        </center>
-    </div>
-<div class="footer">
-    <p>Made by Priyadharshini S B · Madurai, Tamil Nadu</p>
-</div>
+      </div>
+
+      <p class="contact-intro">
+        I am interested in entry-level Software Developer and
+        Web Developer opportunities. Feel free to connect with me.
+      </p>
+
+      <div class="contact-links">
+        <a href="mailto:sbpriyadharshini005@gmail.com" class="contact-item">
+          <span>Email</span>
+          <span>sbpriyadharshini005@gmail.com</span>
+        </a>
+
+        <a href="https://www.linkedin.com/in/priyadharshini-sb"
+           target="_blank" rel="noopener noreferrer" class="contact-item">
+          <span>LinkedIn</span>
+          <span>Connect with me ↗</span>
+        </a>
+
+        <a href="https://github.com/PriyadharshiniSB"
+           target="_blank" rel="noopener noreferrer" class="contact-item">
+          <span>GitHub</span>
+          <span>View my repositories ↗</span>
+        </a>
+      </div>
+
+      <a href="Priyadharshini_S_B.pdf"
+         class="btn btn-primary resume-btn" download>
+        Download My Resume ↓
+      </a>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2026 Priyadharshini S B. Built with HTML and CSS.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
 </body>
 </html>
